@@ -1,0 +1,37 @@
+---
+providers:
+  config:
+    class: octodns.provider.yaml.YamlProvider
+    directory: .
+    default_ttl: 300
+  route53:
+    class: octodns.provider.route53.Route53Provider
+    access_key_id: env/AWS_ACCESS_KEY_ID
+    secret_access_key: env/AWS_SECRET_ACCESS_KEY
+
+zones:
+  opennic.link.:
+    sources:
+      - config
+    targets:
+      - route53
+  opennic.org.:
+    sources:
+      - config
+    targets:
+      - route53
+  opennicproject.com.:
+    sources:
+      - config
+    targets:
+      - route53
+  opennicproject.net.:
+    sources:
+      - config
+    targets:
+      - route53
+  opennicproject.org.:
+    sources:
+      - config
+    targets:
+      - route53

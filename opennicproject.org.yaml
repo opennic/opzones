@@ -1,0 +1,50 @@
+---
+'':
+  - type: A
+    value: 104.198.14.52
+  - type: MX
+    value:
+      exchange: mail.opennic.org.
+      preference: 0
+  - type: TXT
+    values:
+      - "v=spf1 include:_spf.opennic.org -all" 
+      - "brave-ledger-verification=018b170f89c35d34be04da8197ca5c501e9b69b29c621278f9b30d28634028cf"
+api:
+  type: CNAME
+  value: api.opennic.org.
+lists:
+  - type: A
+    value: 163.172.133.168
+  - type: MX
+    value:
+      exchange: lists.darkdna.net.
+      preference: 0
+members:
+  type: CNAME
+  value: members.opennic.org.
+proxy:
+  type: CNAME
+  value: proxy.opennic.org.
+report:
+  type: CNAME
+  value: report.opennic.org.
+servers:
+  type: CNAME
+  value: servers.opennic.org.
+util-01:
+  - type: A
+    value: 45.56.115.189
+  - type: AAAA
+    value: 2600:3c02:0:0:f03c:91ff:fe33:e1ba
+util-02:
+  - type: A
+    value: 45.56.116.224
+  - type: AAAA
+    value: 2600:3c02:0:0:f03c:91ff:fe33:e1d9
+wiki:
+  - type: CNAME
+    value: wiki.opennic.org.
+www:
+  - type: CNAME
+    value: www.opennic.org.
