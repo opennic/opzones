@@ -15,7 +15,9 @@ api:
   value: api.opennic.org.
 lists:
   - type: A
-    value: 163.172.133.168
+    value: 116.203.119.134
+  - type: AAAA
+    value: 2a01:4f8:c2c:80f2::1
   - type: MX
     value:
       exchange: lists.darkdna.net.
