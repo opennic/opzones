@@ -1,15 +1,15 @@
 ---
 '':
-  - type: A
-    value: 104.198.14.52
-  - type: MX
-    values:
-      - exchange: mail.opennic.org.
-        preference: 0
-  - type: TXT
-    values:
-      - "v=spf1 include:_spf.opennic.org -all"
-      - "google-site-verification=BEXlcVpMPQyjRXNxmJZKTwartwm40q-h9UJl_BvdgkY"
+- type: A
+  value: 104.198.14.52
+- type: MX
+  values:
+  - exchange: mail.opennic.org.
+    preference: 0
+- type: TXT
+  values:
+  - "v=spf1 include:_spf.opennic.org -all"
+  - "google-site-verification=BEXlcVpMPQyjRXNxmJZKTwartwm40q-h9UJl_BvdgkY"
 _dmarc:
   type: TXT
   value: "v=DMARC1\\; p=none"
@@ -23,61 +23,70 @@ _spf:
   type: TXT
   value: "v=spf1 a:mail.opennic.org -all"
 api:
-  - type: A
-    value: 116.203.98.109
-  - type: AAAA
-    value: 2a01:4f8:1c1c:bd6f::1
+- type: A
+  value: 116.203.98.109
+- type: AAAA
+  value: 2a01:4f8:1c1c:bd6f::1
 'dkim._domainkey':
   type: TXT
   values:
-    - "v=DKIM1\\; k=rsa\\; t=s\\; s=email\\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuaM6Mn3/IkfzjyCW6YUgYaKTsMweVcF5FYjxjfnU2nhiStizlsQDNoZbiLfKwCYAicQhuswiQpIjPpIEhE9UMvgRATc1PwZ9b8K1ZU51zzdXg3nQLk67lBq04QNdDhH1OjzMvD89Bv3A+4W9HlDoq4Cx600zoPcElASj5NhCXVb455LK/PTvu/sZup4wmV90oGXbzsNLqoEjAb kIS8B4wgUQhLloczhlc8aMDTL9Q0Kta2OcigmA+J3ogUrNjdYYLcPGaByYLbVHlSe21JdGKmaTlecp1C9ryDIMObgwfg1n3hhVXkNn09UaLZvGUU0buWRq4aWxluZJQEOJB8KhoQIDAQAB"
+  - "v=DKIM1\\; k=rsa\\; t=s\\; s=email\\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuaM6Mn3/IkfzjyCW6YUgYaKTsMweVcF5FYjxjfnU2nhiStizlsQDNoZbiLfKwCYAicQhuswiQpIjPpIEhE9UMvgRATc1PwZ9b8K1ZU51zzdXg3nQLk67lBq04QNdDhH1OjzMvD89Bv3A+4W9HlDoq4Cx600zoPcElASj5NhCXVb455LK/PTvu/sZup4wmV90oGXbzsNLqoEjAb kIS8B4wgUQhLloczhlc8aMDTL9Q0Kta2OcigmA+J3ogUrNjdYYLcPGaByYLbVHlSe21JdGKmaTlecp1C9ryDIMObgwfg1n3hhVXkNn09UaLZvGUU0buWRq4aWxluZJQEOJB8KhoQIDAQAB"
+ldap:
+- type: A
+  values:
+  - 45.56.115.189
+  - 45.56.116.224
+- type: AAAA
+  values:
+  - 2600:3c02::f03c:91ff:fe33:e1ba
+  - 2600:3c02::f03c:91ff:fe33:e1d9
 mail:
-  - type: A
-    value: 159.69.85.115
-  - type: AAAA
-    value: 2a01:4f8:1c1c:593d::1
+- type: A
+  value: 159.69.85.115
+- type: AAAA
+  value: 2a01:4f8:1c1c:593d::1
 matomo:
   type: A
   value: 88.198.119.203
 members:
-  - type: A
-    values:
-      - 45.56.115.189
-      - 45.56.116.224
-  - type: AAAA
-    values:
-      - 2600:3c02::f03c:91ff:fe33:e1ba
-      - 2600:3c02::f03c:91ff:fe33:e1d9
+- type: A
+  values:
+  - 45.56.115.189
+  - 45.56.116.224
+- type: AAAA
+  values:
+  - 2600:3c02::f03c:91ff:fe33:e1ba
+  - 2600:3c02::f03c:91ff:fe33:e1d9
 pki:
   type: CNAME
   value: pki.jda.mn.
 proxy:
-  - type: A
-    value: 161.97.219.84
-  - type: AAAA
-    value: 2001:470:4212:1::254
+- type: A
+  value: 161.97.219.84
+- type: AAAA
+  value: 2001:470:4212:1::254
 report:
-  - type: A
-    values:
-      - 45.56.115.189
-      - 45.56.116.224
-  - type: AAAA
-    values:
-      - 2600:3c02::f03c:91ff:fe33:e1ba
-      - 2600:3c02::f03c:91ff:fe33:e1d9
+- type: A
+  values:
+  - 45.56.115.189
+  - 45.56.116.224
+- type: AAAA
+  values:
+  - 2600:3c02::f03c:91ff:fe33:e1ba
+  - 2600:3c02::f03c:91ff:fe33:e1d9
 servers:
-  - type: A
-    value: 161.97.219.84
-  - type: AAAA
-    value: 2001:470:4212:1::254
+- type: A
+  value: 161.97.219.84
+- type: AAAA
+  value: 2001:470:4212:1::254
 whois:
   type: A
   value: 161.97.219.82
 wiki:
-  - type: A
-    value: 103.230.141.16
-  - type: AAAA
-    value: 2a05:dfc7:dfc7:2600::1
+- type: A
+  value: 103.230.141.16
+- type: AAAA
+  value: 2a05:dfc7:dfc7:2600::1
 www:
   type: CNAME
   value: opennic.org.netlify.com.

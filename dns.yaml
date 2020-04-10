@@ -12,26 +12,26 @@ providers:
 zones:
   opennic.link.:
     sources:
-      - config
+    - config
     targets:
-      - route53
+    - route53
   opennic.org.:
     sources:
-      - config
+    - config
     targets:
-      - route53
+    - route53
   opennicproject.com.:
     sources:
-      - config
+    - config
     targets:
-      - route53
+    - route53
   opennicproject.net.:
     sources:
-      - config
+    - config
     targets:
-      - route53
+    - route53
   opennicproject.org.:
     sources:
-      - config
+    - config
     targets:
-      - route53
+    - route53
