@@ -39,14 +39,14 @@ servers:
   value: servers.opennic.org.
 util-01:
 - type: A
-  value: 45.56.115.189
+  value: 168.119.153.26
 - type: AAAA
-  value: 2600:3c02:0:0:f03c:91ff:fe33:e1ba
+  value: '2a01:4f8:c17:fa94::'
 util-02:
 - type: A
-  value: 45.56.116.224
+  value: 195.201.99.61
 - type: AAAA
-  value: 2600:3c02:0:0:f03c:91ff:fe33:e1d9
+  value: '2a01:4f8:c2c:e789::'
 wiki:
 - type: CNAME
   value: wiki.opennic.org.

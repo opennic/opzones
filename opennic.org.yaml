@@ -34,12 +34,12 @@ api:
 ldap:
 - type: A
   values:
-  - 45.56.115.189
-  - 45.56.116.224
+  - 168.119.153.26
+  - 195.201.99.61
 - type: AAAA
   values:
-  - 2600:3c02::f03c:91ff:fe33:e1ba
-  - 2600:3c02::f03c:91ff:fe33:e1d9
+  - '2a01:4f8:c17:fa94::'
+  - '2a01:4f8:c2c:e789::'
 mail:
 - type: A
   value: 159.69.85.115
@@ -51,12 +51,12 @@ matomo:
 members:
 - type: A
   values:
-  - 45.56.115.189
-  - 45.56.116.224
+  - 168.119.153.26
+  - 195.201.99.61
 - type: AAAA
   values:
-  - 2600:3c02::f03c:91ff:fe33:e1ba
-  - 2600:3c02::f03c:91ff:fe33:e1d9
+  - '2a01:4f8:c17:fa94::'
+  - '2a01:4f8:c2c:e789::'
 pki:
   type: CNAME
   value: pki.jda.mn.
@@ -68,12 +68,12 @@ proxy:
 report:
 - type: A
   values:
-  - 45.56.115.189
-  - 45.56.116.224
+  - 168.119.153.26
+  - 195.201.99.61
 - type: AAAA
   values:
-  - 2600:3c02::f03c:91ff:fe33:e1ba
-  - 2600:3c02::f03c:91ff:fe33:e1d9
+  - '2a01:4f8:c17:fa94::'
+  - '2a01:4f8:c2c:e789::'
 servers:
 - type: A
   value: 161.97.219.84
