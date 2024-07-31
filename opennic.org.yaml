@@ -95,8 +95,6 @@ whois:
 wiki:
 - type: A
   value: 103.230.141.16
-- type: AAAA
-  value: 2a05:dfc7:dfc7:2600::1
 www:
 - type: A
   values:
