@@ -1,7 +1,13 @@
 ---
 '':
 - type: A
-  value: 104.198.14.52
+  value: 168.119.153.26
+- type: A
+  value: 195.201.99.61
+- type: AAAA
+  value: '2a01:4f8:c17:fa94::'
+- type: AAAA
+  value: '2a01:4f8:c2c:e789::'
 - type: MX
   value:
     exchange: mail.opennic.org.
@@ -51,5 +57,11 @@ wiki:
 - type: CNAME
   value: wiki.opennic.org.
 www:
-- type: CNAME
-  value: www.opennic.org.
+- type: A
+  value: 168.119.153.26
+- type: A
+  value: 195.201.99.61
+- type: AAAA
+  value: '2a01:4f8:c17:fa94::'
+- type: AAAA
+  value: '2a01:4f8:c2c:e789::'

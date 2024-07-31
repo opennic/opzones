@@ -1,7 +1,21 @@
 ---
 '':
 - type: A
-  value: 104.198.14.52
+  value: 185.199.108.153
+- type: A
+  value: 185.199.109.153
+- type: A
+  value: 185.199.110.153
+- type: A
+  value: 185.199.111.153
+- type: AAAA
+  value: 2606:50c0:8000::153
+- type: AAAA
+  value: 2606:50c0:8001::153
+- type: AAAA
+  value: 2606:50c0:8002::153
+- type: AAAA
+  value: 2606:50c0:8003::153
 - type: MX
   values:
   - exchange: mail.opennic.org.
@@ -88,5 +102,19 @@ wiki:
 - type: AAAA
   value: 2a05:dfc7:dfc7:2600::1
 www:
-  type: CNAME
-  value: opennic.org.netlify.com.
+- type: A
+  value: 185.199.108.153
+- type: A
+  value: 185.199.109.153
+- type: A
+  value: 185.199.110.153
+- type: A
+  value: 185.199.111.153
+- type: AAAA
+  value: 2606:50c0:8000::153
+- type: AAAA
+  value: 2606:50c0:8001::153
+- type: AAAA
+  value: 2606:50c0:8002::153
+- type: AAAA
+  value: 2606:50c0:8003::153
