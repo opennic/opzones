@@ -24,9 +24,9 @@ ldap:
   value: ldap.opennic.org.
 lists:
 - type: A
-  value: 116.203.119.134
+  value: 116.202.108.147
 - type: AAAA
-  value: 2a01:4f8:c2c:80f2::1
+  value: 2a01:4f8:c014:c651::1
 - type: MX
   value:
     exchange: lists.darkdna.net.
