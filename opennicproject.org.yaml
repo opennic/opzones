@@ -37,7 +37,7 @@ lists:
 sympa._domainkey.lists:
 - type: TXT
   values:
-    - "v=DKIM1; h=sha256; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCZHHozd6qbI+xYteysE148xV5FM+WJUz6wmWeCRhLf21lP9qkgjhGBj+ClOjhhVqFYuw8pEngBGKS6QBaHUoH4IZgPVXdhGkMMrmnj0gi5o5hbuhQtPo/d0cRRB6PdztGT7+L8TMU3y0H0XMISA+oEucWjrQ6AfufGC3kuBD0kWwIDAQAB"
+    - "v=DKIM1\\; h=sha256\\; k=rsa\\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCZHHozd6qbI+xYteysE148xV5FM+WJUz6wmWeCRhLf21lP9qkgjhGBj+ClOjhhVqFYuw8pEngBGKS6QBaHUoH4IZgPVXdhGkMMrmnj0gi5o5hbuhQtPo/d0cRRB6PdztGT7+L8TMU3y0H0XMISA+oEucWjrQ6AfufGC3kuBD0kWwIDAQAB"
 members:
   type: CNAME
   value: members.opennic.org.

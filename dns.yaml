@@ -4,6 +4,7 @@ providers:
     class: octodns.provider.yaml.YamlProvider
     directory: .
     default_ttl: 300
+    enforce_order: False
   route53:
     class: octodns_route53.Route53Provider
     access_key_id: env/AWS_ACCESS_KEY_ID
